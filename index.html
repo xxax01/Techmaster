@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ТехноМастер — ремонт смартфонов, ноутбуков, телевизоров и бытовой техники</title>
+  <meta name="description" content="ТехноМастер: ремонт и диагностика смартфонов, ноутбуков, телевизоров, бытовой техники и игровых приставок в Кыргызстане. Калькулятор стоимости, заявка онлайн и консультация в WhatsApp.">
+  <meta name="theme-color" content="#0a1e3f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ТехноМастер — ремонт техники быстро и с гарантией">
+  <meta property="og:description" content="Диагностика, ремонт и обслуживание техники. Рассчитайте стоимость онлайн и оставьте заявку.">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230a1e3f'/%3E%3Cpath d='M9 22l7-7' stroke='%2319a0ff' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='20' cy='12' r='5' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"ТехноМастер","description":"Ремонт смартфонов, ноутбуков, телевизоров, бытовой техники и игровых приставок","areaServed":"KG","priceRange":"KGS"}
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <!-- ===== ШАПКА ===== -->
+  <header class="site-header">
+    <div class="container bar">
+      <a class="logo" href="#top" aria-label="ТехноМастер — на главную">
+        <span class="logo-mark" data-icon="tool"></span>
+        <span class="logo-text">ТехноМастер</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+        <span class="burger"></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#calculator">Калькулятор</a></li>
+          <li><a href="#about">О компании</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+          <li class="nav-cta"><a class="btn btn--bright" href="#order">Оставить заявку</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--bright btn--sm hdr-cta" href="#order">Оставить заявку</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== ГЛАВНЫЙ ЭКРАН ===== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title" class="rise" style="--i:0">Ремонт техники быстро и с гарантией</h1>
+          <p class="hero-lead rise" style="--i:1">Восстанавливаем вашу технику, экономим ваше время и помогаем продлить срок её службы</p>
+          <div class="hero-actions rise" style="--i:2">
+            <a class="btn btn--bright" href="#order">Заказать ремонт</a>
+            <a class="btn btn--ghost" href="#services">Посмотреть услуги</a>
+          </div>
+        </div>
+        <!-- Иллюстрация. Чтобы использовать фото мастера, замените <svg> на <img src="images/master.jpg" alt="Мастер ремонтирует электронику"> -->
+        <div class="hero-visual rise" style="--i:2">
+          <svg viewBox="0 0 420 460" role="img" aria-label="Смартфон на диагностике: схема платы и сканирующая линия">
+            <defs>
+              <linearGradient id="gPhone" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b4a94"/><stop offset="1" stop-color="#0b2147"/></linearGradient>
+              <linearGradient id="gScan" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2bb4ff" stop-opacity="0"/><stop offset="1" stop-color="#2bb4ff" stop-opacity=".55"/></linearGradient>
+              <clipPath id="screenClip"><rect x="112" y="52" width="196" height="356" rx="22"/></clipPath>
+            </defs>
+            <rect x="96" y="36" width="228" height="388" rx="36" fill="url(#gPhone)" stroke="#2bb4ff" stroke-opacity=".5" stroke-width="2"/>
+            <rect x="112" y="52" width="196" height="356" rx="22" fill="#071835"/>
+            <g clip-path="url(#screenClip)" fill="none" stroke="#2bb4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M130 120h60v40h50M130 200h40v60h70M250 120v-30h40M200 300v50h90M140 340h30M240 260h50v40"/>
+              <rect x="150" y="140" width="52" height="52" rx="8" fill="#0f3366"/>
+              <rect x="226" y="210" width="48" height="36" rx="6" fill="#0f3366"/>
+              <rect x="150" y="270" width="40" height="40" rx="6" fill="#0f3366"/>
+              <circle cx="270" cy="130" r="9"/><circle cx="132" cy="360" r="7"/><circle cx="280" cy="350" r="9"/>
+              <rect class="scan" x="112" y="52" width="196" height="70" fill="url(#gScan)" stroke="none"/>
+            </g>
+            <rect x="178" y="42" width="64" height="8" rx="4" fill="#0b2147"/>
+            <g transform="rotate(35 340 370)">
+              <rect x="332" y="310" width="16" height="80" rx="8" fill="#fff"/>
+              <rect x="332" y="338" width="16" height="14" fill="#19a0ff"/>
+              <rect x="336" y="388" width="8" height="36" rx="3" fill="#9fb4d3"/>
+            </g>
+          </svg>
+          <img class="hero-photo" id="heroPhoto" alt="Мастер ремонтирует электронику" hidden>
+          <span class="float-chip c1">Проверка платы</span>
+          <span class="float-chip c2">Тест аккумулятора</span>
+          <span class="float-chip c3">Замена деталей</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+    <section class="section" id="advantages" aria-labelledby="adv-title">
+      <div class="container">
+        <div class="sec-head reveal"><h2 id="adv-title">Почему к нам обращаются</h2></div>
+        <ul class="adv-grid">
+          <li class="adv reveal"><span class="ico" data-icon="chat"></span><h3>Бесплатная первичная консультация</h3><p>Подскажем, с чего начать, ещё до визита.</p></li>
+          <li class="adv reveal"><span class="ico" data-icon="user"></span><h3>Опытные специалисты</h3><p>Мастера работают со смартфонами, ноутбуками, ТВ и бытовой техникой.</p></li>
+          <li class="adv reveal"><span class="ico" data-icon="tag"></span><h3>Прозрачные цены</h3><p>Ориентиры в прайсе, точная сумма — после диагностики.</p></li>
+          <li class="adv reveal"><span class="ico" data-icon="shield"></span><h3>Гарантия на выполненные работы</h3><p>Срок и условия фиксируются в квитанции.</p></li>
+          <li class="adv reveal"><span class="ico" data-icon="bolt"></span><h3>Быстрая диагностика</h3><p>Находим причину неисправности до начала ремонта.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== КАТАЛОГ УСЛУГ ===== -->
+    <section class="section section--soft" id="services" aria-labelledby="svc-title">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 id="svc-title">Услуги</h2>
+          <p>Выберите категорию или найдите услугу по названию. Цены в карточках — демонстрационные.</p>
+        </div>
+        <div class="toolbar reveal">
+          <div class="search">
+            <label class="sr-only" for="search">Поиск услуги по названию</label>
+            <span data-icon="search"></span>
+            <input id="search" type="search" placeholder="Например, «экран» или «Windows»" autocomplete="off">
+          </div>
+          <div class="chips" id="filters" role="group" aria-label="Категории услуг"></div>
+        </div>
+        <p class="count" id="resultCount" aria-live="polite"></p>
+        <div class="svc-grid" id="catalog"></div>
+        <p class="empty" id="noResults" hidden>Ничего не найдено. Измените запрос или выберите «Все услуги». Можно также <a data-wa="" href="#contacts">спросить мастера в WhatsApp</a>.</p>
+      </div>
+    </section>
+
+    <!-- ===== ПРАЙС-ЛИСТ ===== -->
+    <section class="section" id="prices" aria-labelledby="price-title">
+      <div class="container narrow">
+        <div class="sec-head reveal">
+          <h2 id="price-title">Примерные цены</h2>
+          <p>Значения — демонстрационные, их можно менять в массиве PRICES (script.js).</p>
+        </div>
+        <div class="card price-card reveal">
+          <table class="price-table">
+            <caption class="sr-only">Прайс-лист в сомах</caption>
+            <thead><tr><th scope="col">Услуга</th><th scope="col">Стоимость</th></tr></thead>
+            <tbody id="priceBody"></tbody>
+          </table>
+        </div>
+        <p class="note reveal">Окончательная стоимость зависит от модели устройства, характера неисправности и стоимости запчастей. Точную сумму мастер называет после диагностики.</p>
+      </div>
+    </section>
+
+    <!-- ===== КАЛЬКУЛЯТОР ===== -->
+    <section class="section section--soft" id="calculator" aria-labelledby="calc-title">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 id="calc-title">Калькулятор стоимости</h2>
+          <p>Выберите технику и неисправность — получите предварительную оценку.</p>
+        </div>
+        <div class="calc-grid">
+          <div class="card calc-form reveal">
+            <div class="field"><label for="calcDevice">Тип техники</label><select id="calcDevice"></select></div>
+            <div class="field"><label for="calcFault">Неисправность</label><select id="calcFault"></select></div>
+            <fieldset class="field"><legend class="lbl">Дополнительные услуги</legend><div class="checks" id="calcExtras"></div></fieldset>
+          </div>
+          <div class="calc-result reveal" aria-live="polite">
+            <p class="calc-label">Предварительная оценка</p>
+            <p class="calc-total" id="calcTotal"></p>
+            <ul class="calc-lines" id="calcBreakdown"></ul>
+            <p class="calc-note">Это ориентир, а не окончательная стоимость ремонта. Итог зависит от модели, состояния устройства и запчастей.</p>
+            <button class="btn btn--bright" id="calcOrder" type="button">Заказать ремонт</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== КАК МЫ РАБОТАЕМ ===== -->
+    <section class="section section--dark" id="process" aria-labelledby="proc-title">
+      <div class="container">
+        <div class="sec-head reveal"><h2 id="proc-title">Как мы работаем</h2></div>
+        <ol class="steps">
+          <li class="step reveal"><span class="step-ico" data-icon="clipboard"></span><h3>Вы оставляете заявку</h3><p>Через форму на сайте или в WhatsApp.</p></li>
+          <li class="step reveal"><span class="step-ico" data-icon="search"></span><h3>Мастер проводит диагностику</h3><p>Находит причину неисправности.</p></li>
+          <li class="step reveal"><span class="step-ico" data-icon="check"></span><h3>Вы узнаёте стоимость</h3><p>Согласовываете ремонт и цену.</p></li>
+          <li class="step reveal"><span class="step-ico" data-icon="box"></span><h3>Техника возвращается вам</h3><p>Отремонтированной и проверенной.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== О КОМПАНИИ ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="reveal">
+          <h2 id="about-title">О компании</h2>
+          <p class="about-lead">«ТехноМастер» занимается ремонтом, диагностикой и обслуживанием бытовой и цифровой техники. Мы стараемся, чтобы клиент всегда понимал, что случилось с устройством и за что платит.</p>
+          <ul class="principles">
+            <li><span data-icon="check"></span>Сначала диагностика — потом цена.</li>
+            <li><span data-icon="check"></span>Объясняем неисправность простыми словами.</li>
+            <li><span data-icon="check"></span>Начинаем работы только после вашего согласия.</li>
+          </ul>
+        </div>
+        <!-- РЕДАКТИРУЕМЫЕ БЛОКИ: замените текст внутри <p> на реальную информацию -->
+        <div class="edit-grid">
+          <article class="edit-card reveal"><h3>Наши мастера</h3><p>Здесь расскажите о команде: сколько мастеров, какие направления ведёт каждый.</p></article>
+          <article class="edit-card reveal"><h3>Опыт работы</h3><p>Укажите, с какого года работает сервис, и только подтверждённые факты.</p></article>
+          <article class="edit-card reveal"><h3>Гарантия</h3><p>Опишите условия и срок гарантии, которые вы действительно предоставляете.</p></article>
+          <article class="edit-card reveal"><h3>Запчасти</h3><p>Расскажите, какие запчасти используете: оригинальные, аналоги, поставщики.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ГАЛЕРЕЯ ===== -->
+    <section class="section section--soft" id="gallery" aria-labelledby="gal-title">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 id="gal-title">Галерея работ</h2>
+          <p>Сейчас здесь демонстрационные иллюстрации. Замените их фотографиями своих работ в массиве GALLERY (script.js).</p>
+        </div>
+        <div class="chips reveal" id="galFilters" role="group" aria-label="Фильтр галереи"></div>
+        <div class="gal-grid" id="gallery"></div>
+      </div>
+    </section>
+
+    <!-- ===== ОТЗЫВЫ ===== -->
+    <section class="section" id="reviews" aria-labelledby="rev-title">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 id="rev-title">Отзывы клиентов</h2>
+          <p>Ниже — примеры оформления. Замените их реальными отзывами в массиве REVIEWS (script.js).</p>
+        </div>
+        <div class="rev-grid" id="reviews"></div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section--soft" id="faq" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <div class="sec-head reveal"><h2 id="faq-title">Частые вопросы</h2></div>
+        <div class="faq reveal">
+          <details><summary>Сколько стоит диагностика?</summary><p>В демонстрационном прайсе — от 300 сом. Укажите здесь свои условия, например, засчитывается ли диагностика в стоимость ремонта.</p></details>
+          <details><summary>Сколько времени занимает ремонт?</summary><p>Срок зависит от модели, неисправности и наличия запчастей. Точное время мастер называет после диагностики.</p></details>
+          <details><summary>Предоставляется ли гарантия?</summary><p>Да, на выполненные работы. Срок и условия впишите здесь и в квитанцию — не указывайте то, что не готовы выполнять.</p></details>
+          <details><summary>Можно ли вызвать мастера на дом?</summary><p>В заявке есть вариант «Выезд мастера». Зону выезда и его стоимость уточните и добавьте сюда.</p></details>
+          <details><summary>Нужно ли заранее записываться?</summary><p>Запись удобнее: мастер подготовится и не заставит вас ждать. Записаться можно через форму заявки или в WhatsApp.</p></details>
+          <details><summary>Можно ли отремонтировать технику после попадания воды?</summary><p>Часто можно, но чем раньше устройство попадёт к мастеру, тем выше шансы. Сразу выключите его, не заряжайте и не сушите феном. Результат заранее гарантировать нельзя.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ЗАЯВКА ===== -->
+    <section class="section" id="order" aria-labelledby="order-title">
+      <div class="container order-grid">
+        <div class="reveal">
+          <h2 id="order-title">Заявка на ремонт</h2>
+          <p class="about-lead">Заполните форму — мы подготовим сообщение и откроем WhatsApp. Заявка уходит мастеру, когда вы нажимаете «Отправить» в WhatsApp.</p>
+        </div>
+        <div class="reveal">
+          <form id="orderForm" class="card form" novalidate>
+            <div class="row2">
+              <div class="field"><label class="req" for="f-name">Имя</label><input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="err-name" placeholder="Как к вам обращаться"><p class="error" id="err-name"></p></div>
+              <div class="field"><label class="req" for="f-phone">Телефон</label><input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="err-phone" placeholder="+996 555 123 456"><p class="error" id="err-phone"></p></div>
+            </div>
+            <div class="row2">
+              <div class="field"><label class="req" for="f-device">Тип техники</label><select id="f-device" name="device" required aria-describedby="err-device"></select><p class="error" id="err-device"></p></div>
+              <div class="field"><label class="req" for="f-model">Производитель и модель</label><input id="f-model" name="model" type="text" required aria-describedby="err-model" placeholder="Например, Samsung A54"><p class="error" id="err-model"></p></div>
+            </div>
+            <div class="field"><label class="req" for="f-issue">Описание неисправности</label><textarea id="f-issue" name="issue" rows="4" required aria-describedby="err-issue" placeholder="Что случилось и когда это началось"></textarea><p class="error" id="err-issue"></p></div>
+            <div class="row2">
+              <div class="field"><label class="req" for="f-date">Удобная дата</label><input id="f-date" name="date" type="date" required aria-describedby="err-date"><p class="error" id="err-date"></p></div>
+              <fieldset class="field"><legend class="lbl req">Способ обслуживания</legend>
+                <div class="seg">
+                  <label><input type="radio" name="mode" value="service" checked><span>В сервисе</span></label>
+                  <label><input type="radio" name="mode" value="visit"><span>Выезд мастера</span></label>
+                </div>
+                <p class="error" id="err-mode"></p>
+              </fieldset>
+            </div>
+            <label class="check check--plain"><input type="checkbox" id="draftConsent"><span>Сохранять черновик в этом браузере. Данные остаются только на вашем устройстве.</span></label>
+            <div class="form-actions">
+              <button class="btn btn--navy" type="submit">Отправить заявку</button>
+              <button class="btn btn--line" type="reset">Очистить</button>
+            </div>
+          </form>
+          <div class="form-result" id="formResult" hidden tabindex="-1">
+            <h3>Спасибо! Ваша заявка подготовлена</h3>
+            <p id="resultHint">Сообщение готово. Мастер получит его, когда вы отправите его в WhatsApp.</p>
+            <pre id="resultText"></pre>
+            <div class="form-actions">
+              <a class="btn btn--wa" id="resultLink" href="#order">Открыть WhatsApp</a>
+              <button class="btn btn--line" id="copyBtn" type="button">Скопировать текст</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== КОНТАКТЫ ===== -->
+    <section class="section section--soft" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 id="contacts-title">Контакты</h2>
+          <p>Данные — заглушки. Замените их в объекте CONFIG (script.js).</p>
+        </div>
+        <div class="contacts-grid">
+          <ul class="contact-list reveal">
+            <li><span class="ico" data-icon="pin"></span><div><h3>Адрес</h3><p class="js-address"></p></div></li>
+            <li><span class="ico" data-icon="phoneCall"></span><div><h3>Телефон</h3><p><a class="js-phone" href="#contacts"></a></p></div></li>
+            <li><span class="ico" data-icon="chat"></span><div><h3>WhatsApp</h3><p><a class="btn btn--wa btn--sm" data-wa="" href="#contacts">Написать в WhatsApp</a></p></div></li>
+            <li><span class="ico" data-icon="clock"></span><div><h3>График работы</h3><p class="js-hours"></p></div></li>
+            <li><span class="ico" data-icon="mail"></span><div><h3>Почта</h3><p><a class="js-mail" href="#contacts"></a></p></div></li>
+          </ul>
+          <div class="map-box reveal" id="mapBox"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <div>
+        <a class="logo" href="#top"><span class="logo-mark" data-icon="tool"></span><span class="logo-text">ТехноМастер</span></a>
+        <p class="foot-note">Демонстрационный сайт: цены, тексты и контакты — примеры для замены.</p>
+      </div>
+      <nav aria-label="Навигация в подвале">
+        <ul class="foot-links">
+          <li><a href="#services">Услуги</a></li><li><a href="#prices">Цены</a></li><li><a href="#calculator">Калькулятор</a></li>
+          <li><a href="#process">Как мы работаем</a></li><li><a href="#about">О компании</a></li><li><a href="#gallery">Галерея</a></li>
+          <li><a href="#reviews">Отзывы</a></li><li><a href="#faq">Вопросы</a></li><li><a href="#order">Заявка</a></li><li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <p class="copy">© <span id="year"></span> ТехноМастер</p>
+    </div>
+  </footer>
+
+  <!-- Плавающие элементы -->
+  <a class="wa-float" id="waFloat" data-wa="" href="#contacts" aria-label="Написать в WhatsApp"><span data-icon="chat"></span><span class="wa-text">WhatsApp</span></a>
+  <button class="to-top" id="toTop" type="button" aria-label="Наверх"><span data-icon="arrowUp"></span></button>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр изображения">
+    <div class="lb-inner">
+      <button class="lb-close" id="lbClose" type="button" aria-label="Закрыть">✕</button>
+      <img id="lbImg" src="" alt="">
+      <p id="lbCap"></p>
+    </div>
+  </dialog>
+</body>
+</html>
